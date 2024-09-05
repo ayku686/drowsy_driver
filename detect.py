@@ -7,10 +7,6 @@ from twilio.rest import Client
 
 from imutils import face_utils
 
-# Twilio configuration"
-account_sid = "AC07fd9e75c0bb03bb3ec444ba47349aa1"
-auth_token = "c30cda8679d8dcfe6286539d0905cf3a"
-
 
 client = Client(account_sid, auth_token)
 
